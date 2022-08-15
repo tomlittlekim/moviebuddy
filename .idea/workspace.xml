@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa27a7b7-9795-474d-98af-a309d48d6554" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/moviebuddy/data/CachingMovieReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/moviebuddy/data/CachingMovieReaderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/moviebuddy/cache/CachingAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/moviebuddy/JdkDynamicProxyTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/moviebuddy/ReflectionTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/moviebuddy/MovieBuddyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/moviebuddy/MovieBuddyFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/moviebuddy/data/CsvMovieReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/moviebuddy/data/CsvMovieReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/moviebuddy/data/CsvMovieReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/moviebuddy/data/CsvMovieReaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/moviebuddy/data/XmlMovieReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/moviebuddy/data/XmlMovieReaderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +58,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -70,12 +68,12 @@
     &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;281c0a7811fe93ca741d74779ee6ea06&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.MovieFinderTest">
-    <configuration name="CachingMovieReaderTest.caching" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.XmlMovieReaderTest.Check_MovieReaderType">
+    <configuration name="JdkDynamicProxyTests.useDynamicProxy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -88,7 +86,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;moviebuddy.data.CachingMovieReaderTest.caching&quot;" />
+            <option value="&quot;moviebuddy.JdkDynamicProxyTests.useDynamicProxy&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -121,10 +119,82 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="ReflectionTests.objectCreateAndMethodCall" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;moviebuddy.ReflectionTests.objectCreateAndMethodCall&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="XmlMovieReaderTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;moviebuddy.data.XmlMovieReaderTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="XmlMovieReaderTest.Check_MovieReaderType" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;moviebuddy.data.XmlMovieReaderTest.Check_MovieReaderType&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.XmlMovieReaderTest.Check_MovieReaderType" />
+        <item itemvalue="Gradle.XmlMovieReaderTest" />
         <item itemvalue="Gradle.MovieFinderTest" />
-        <item itemvalue="Gradle.CachingMovieReaderTest.caching" />
+        <item itemvalue="Gradle.JdkDynamicProxyTests.useDynamicProxy" />
+        <item itemvalue="Gradle.ReflectionTests.objectCreateAndMethodCall" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +208,10 @@
       <updated>1659529505892</updated>
       <workItem from="1659529509496" duration="1170000" />
       <workItem from="1659530744840" duration="660000" />
-      <workItem from="1659872624448" duration="1331000" />
+      <workItem from="1659872624448" duration="2235000" />
+      <workItem from="1659956836664" duration="1357000" />
+      <workItem from="1660483087098" duration="2947000" />
+      <workItem from="1660563833065" duration="2501000" />
     </task>
     <servers />
   </component>
